@@ -1,17 +1,13 @@
 var attempt = 3;
 // Variable to count number of attempts.
 // Below function Executes on click of login button.
-}
 function validate(){
 
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
     var email = document.getElementById('email').value;
-    error1 = document.getElementsByClassName('error1');
-    error2 = document.getElementsByClassName('error2');
-    error3 = document.getElementsByClassName('error3');
-    if (username[0] != '@' || username.length <= 1){
-        error1.innerText = 'invalid syntax'
+    if (username[0] != '@'){
+        alert('username should start with @')
     }
     else if (password.length >= 10){
         alert('the password should be less than 10')
