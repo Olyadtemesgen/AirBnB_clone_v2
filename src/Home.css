@@ -152,7 +152,7 @@ body{
 /* Main */
 .main_page{
     min-width: 950px;
-    background-image: url('background.gif');
+    background-image: url('src/background.gif');
     background-repeat: no-repeat;
     background-size:cover;
     color: white;
