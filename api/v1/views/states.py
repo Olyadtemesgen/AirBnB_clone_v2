@@ -6,7 +6,7 @@ from api.v1.views import app_views
 from flask import abort, jsonify, make_response, request
 from flasgger.utils import swag_from
 
-
+# Amazingly speaking this does mean that I know dhango
 @app_views.route('/states', methods=['GET'], strict_slashes=False)
 @swag_from('documentation/state/get_state.yml', methods=['GET'])
 def get_states():
