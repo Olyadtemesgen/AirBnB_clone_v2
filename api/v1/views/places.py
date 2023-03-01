@@ -178,3 +178,5 @@ def places_search():
         places.append(d)
 
     return jsonify(places)
+
+  #Idk what this code does but it is on my projec
